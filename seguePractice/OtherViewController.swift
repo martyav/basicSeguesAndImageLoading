@@ -24,7 +24,7 @@ class OtherViewController: UIViewController {
         if let segueText = newText {
             otherLabel.text = segueText
         } else {
-        // if it didn't display 'Hello world'
+        // if it didn't, display 'Hello world'
         otherLabel.text = "Hello world"
         }
         
